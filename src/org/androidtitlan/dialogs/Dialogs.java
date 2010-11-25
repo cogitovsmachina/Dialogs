@@ -27,7 +27,14 @@ public class Dialogs extends Activity {
 	        
 	        customDialogButton.setOnClickListener(new OnClickListener() {
 	            public void onClick(View v) {
-	                //set up dialog
+	            	showCustomDialog();
+				
+	        }
+	            
+	            
+
+				private void showCustomDialog() {
+					 //set up dialog
 	                final Dialog dialog = new Dialog(Dialogs.this);
 	                dialog.setContentView(R.layout.customdialog);
 	                dialog.setTitle("This is a Custom dialog box");
@@ -52,9 +59,8 @@ public class Dialogs extends Activity {
 	                });
 	                //now that the dialog is set up, it's time to show it    
 	                dialog.show();
-	            }
-
-				
-	        });
+	            }					
+				});
 		}
+	        
 	 }
