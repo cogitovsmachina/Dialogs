@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Dialogs</string>
+<string name="lots_of_texts">Example of Custom Dialog...Example of Custom Dialog...Example of Custom Dialog...Example of Custom Dialog...Example of Custom Dialog...</string>
+</resources>
